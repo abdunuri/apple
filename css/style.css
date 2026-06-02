@@ -11,6 +11,13 @@ img{
     max-width: 100%;
 }
 /* Header style */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 .header-wrapper{
     background-color: black;
     color: white;
@@ -20,8 +27,6 @@ img{
 
 .header-wrapper ul{
     display: flex;
-    /* acts as a fallback 
-      it gets ignored since its ancient*/
     -webkit-box-pack: justify;    
     justify-content: space-between;
 }
